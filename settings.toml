@@ -1,0 +1,13 @@
+[default]
+DEBUG = false
+TITLE = "Nueva Acropolis"
+EXTENSIONS = [
+]
+
+
+[development]
+EXTENSIONS = [
+    "dynaconf_merge_unique"
+]
+
+

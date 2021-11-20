@@ -1,4 +1,5 @@
 from flask import Flask
+from nacropolis.blueprints import views
 
 from nacropolis.ext import configuration
 
@@ -12,6 +13,7 @@ def minimal_app():
 
 def create_app(**config):
     app = minimal_app(**config)
+    views.init_app(app)
     configuration.load_extensions(app)
     return app
 

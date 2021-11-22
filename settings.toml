@@ -1,7 +1,10 @@
 [default]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
 DEBUG = false
 TITLE = "Nueva Acropolis"
 EXTENSIONS = [
+    "nacropolis.ext.database:init_app",
+    "nacropolis.ext.commands:init_app",
 ]
 
 

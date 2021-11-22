@@ -5,5 +5,7 @@ Flask-RESTful
 flask-shell-ipython
 flask-simplelogin
 Flask-SQLAlchemy
-Flask
+Flask~=2.0.2
 SQLAlchemy-serializer
+Werkzeug~=2.0.2
+click~=8.0.3
